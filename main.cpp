@@ -2,6 +2,8 @@
 #include <string>
 #include "RandomString.h"
 
+#define ASIZEOF(arr) sizeof(arr)/sizeof(*arr)
+
 using namespace std;
 
 int main()
@@ -19,10 +21,10 @@ int main()
         "crazy",
         "occasionally rude"
     };
-    RandomString adjectives(arr, sizeof(arr)/sizeof(*arr));
+    RandomString adjectives(arr, ASIZEOF(arr));
 
     const string arr2[] = { "Greetings", "Hello", "Hi"};
-    RandomString greetings(arr2, sizeof(arr2)/sizeof(*arr2));
+    RandomString greetings(arr2, ASIZEOF(arr2));
 
     const string arr3[] = {
         "is",
@@ -34,7 +36,7 @@ int main()
         "sometimes does something",
         "is sometimes"
     };
-    RandomString verbs(arr3, sizeof(arr3)/sizeof(*arr3));
+    RandomString verbs(arr3, ASIZEOF(arr3));
 
     const string arr4[] = {
         "it is verifiable",
@@ -48,7 +50,7 @@ int main()
         "it is so obvious",
         "it is never that obvious"
     };
-    RandomString reasons(arr4, sizeof(arr4)/sizeof(*arr4));
+    RandomString reasons(arr4, ASIZEOF(arr4));
 
     // some variables
     string name;
