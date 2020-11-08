@@ -20,23 +20,23 @@ int main()
         "silly",
         "crazy",
         "occasionally rude",
-	"stupid",
-	"ugly",
-	"annoying",
-	"careless",
-	"lazy",
-	"smelly",
-	"disgusting",
-	"incompetent",
-	"unsuccessful with girls",
-	"crazy about computers",
-	"destructive",
-	"disrespectfull",
-	"heavenly",
-	"gorgeous",
-	"very pretty",
-	"horny",
-	"clumsy"
+        "stupid",
+        "ugly",
+        "annoying",
+        "careless",
+        "lazy",
+        "smelly",
+        "disgusting",
+        "incompetent",
+        "unsuccessful with girls",
+        "crazy about computers",
+        "destructive",
+        "disrespectfull",
+        "heavenly",
+        "gorgeous",
+        "very pretty",
+        "horny",
+        "clumsy"
     };
     RandomString adjectives(arr, ASIZEOF(arr));
 
@@ -52,12 +52,12 @@ int main()
         "always does something",
         "sometimes does something",
         "is sometimes",
-	"can be",
-	"never is",
-	"always behaves",
-	"never behaves",
-	"sometimes behaves",
-	"does usually act"
+        "can be",
+        "never is",
+        "always behaves",
+        "never behaves",
+        "sometimes behaves",
+        "does usually act"
     };
     RandomString verbs(arr3, ASIZEOF(arr3));
 
@@ -72,33 +72,32 @@ int main()
         "it is a proven fact",
         "it is so obvious",
         "it is never that obvious",
-	"it is written in the holy books",
-	"the internet says so",
-	"everybody disapproves",
-	"most people don't really care",
-	"everybody cares so much",
-	"the sun rises every morning",
-	"the moon never falls from the sky",
-	"people who landed on Mars said so",
-	"the Egyptians have carved it in stone",
-	"Moses killed his child for this",
-	"Jesus turned water into wine",
-	"a 4 86 is slower than a Pentium",
-	"Mac OS 10 is better then Windows!",
-	"iOS is better than Android",
-	"Star Trek beats Star Wars",
-	"stupid people voted for Donald Trump",
-	"Brexit"
+        "it is written in the holy books",
+        "the internet says so",
+        "everybody disapproves",
+        "most people don't really care",
+        "everybody cares so much",
+        "the sun rises every morning",
+        "the moon never falls from the sky",
+        "people who landed on Mars said so",
+        "the Egyptians have carved it in stone",
+        "Moses killed his child for this",
+        "Jesus turned water into wine",
+        "a 4 86 is slower than a Pentium",
+        "Mac OS 10 is better then Windows",
+        "iOS is better than Android",
+        "Star Trek beats Star Wars",
+        "stupid people voted for Donald Trump",
+        "Brexit"
     };
     RandomString reasons(arr4, ASIZEOF(arr4));
 
     const string arr5[] = {
-      "because",
-      "while",
-      "if",
-      "since",
-      "as",
-      "due to"
+        "because",
+        "while",
+        "if",
+        "since",
+        "as"
     };
     RandomString conjuctions(arr5, ASIZEOF(arr5));
 
@@ -120,7 +119,7 @@ int main()
             << name << " "
             << verbs.getRandomString() << " "
             << adjectives.getRandomString() << ", "
-	    << conjuctions.getRandomString() << " "
+            << conjuctions.getRandomString() << " "
             << reasons.getRandomString() << "."
             //<< (" << i+1 << ")"
             << endl;
