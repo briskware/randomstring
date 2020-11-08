@@ -81,8 +81,6 @@ int main()
         "the moon never falls from the sky",
         "people who landed on Mars said so",
         "the Egyptians have carved it in stone",
-        "Moses killed his child for this",
-        "Jesus turned water into wine",
         "a 4 86 is slower than a Pentium",
         "Mac OS 10 is better then Windows",
         "iOS is better than Android",
